@@ -7,12 +7,11 @@ header {
     align-items: center;
     justify-content: space-between;
     color: #E5E7EB;
-    padding: 18px;
 }
 
 .logo {
     font-weight: bold;
-
+    padding-left: 10%;
 }
 
 header a, a:visited {
@@ -25,25 +24,47 @@ header ul {
     display: flex;
     gap: 16px;
     font-size: 12px;
+    padding-right: 10%;
 }
 
 .hero, header, footer {
     background-color: #1F2937;
+    padding: 50px;
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bolder;
     color:#F9FAF8;
-    margin-top: 0;
+    margin: 0;
+    
+}
+
+.hero .left {
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.hero .right {
+    padding-right: 10%;
+
 }
 
 .hero {
     margin-top: 0;
     font-size: 18px;
     color: #E5E7EB;
+    display: inline-flex;
 }
 
+.hero img {
+    width: 450px;
+    height: 150px;
+    background-color: lightgrey;
+    display: flex;
+    text-align: center;
+    padding-top: 25%;
+}
 .content h2 {
     font-size: 36px;
     font-weight: bolder;
